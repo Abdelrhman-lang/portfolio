@@ -57,7 +57,7 @@ export default function HeroSectio() {
               </span>
             </div>
             <div className="flex flex-col items-center">
-              <span className="block mb-10 text-7xl text-primary">2+</span>
+              <span className="block mb-10 text-7xl text-primary">3+</span>
               <span className="text-muted uppercase">
                 project completed on
                 <br />

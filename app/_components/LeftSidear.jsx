@@ -22,9 +22,9 @@ export default function LeftSidear() {
       </div>
       <div className="px-0 mb-12 flex justify-center items-center">
         <img
-          src="/me_4.jpg"
+          src="/me_1.png"
           alt="me"
-          className="w-52 md:w-3xs h-52 rounded-lg grayscale-25"
+          className="w-[320px] h-[310px] rounded-lg grayscale-25"
         />
       </div>
       <h3 className="text-lg md:text-2xl text-center mb-2 font-light">
@@ -68,16 +68,6 @@ export default function LeftSidear() {
           hire me!
         </Button>
       </div>
-      <p className="text-xs text-muted mt-5 text-center capitalize">
-        the inspiration design is{" "}
-        <a
-          href="https://wpriverthemes.com/drake"
-          target="_blank"
-          className="text-primary"
-        >
-          Drake
-        </a>
-      </p>
     </div>
   );
 }
