@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { SettingContext } from "@/context/SettingContext";
 import { Facebook, Github, Instagram, Settings, Twitter } from "lucide-react";
 import { useContext } from "react";
+import { Link } from "react-scroll";
 
 export default function LeftSidear() {
   const { setIsSettingOpen } = useContext(SettingContext);
@@ -38,35 +39,43 @@ export default function LeftSidear() {
       </p>
       <ul className="flex items-center gap-5 justify-center mb-7">
         <li>
-          <a className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/booooda__100/"
+            className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer"
+          >
             <Instagram className="w-5 h-5" />
           </a>
         </li>
         <li>
-          <a className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer">
-            <Twitter className="w-5 h-5" />
-          </a>
-        </li>
-        <li>
-          <a className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/abdo.khaled.31542/"
+            className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer"
+          >
             <Facebook className="w-5 h-5" />
           </a>
         </li>
         <li>
-          <a className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer">
+          <a
+            target="_blank"
+            href="https://github.com/Abdelrhman-lang?tab=repositories"
+            className="border border-muted w-12 h-12 flex items-center justify-center rounded-full text-muted hover:text-primary transition-colors duration-200 hover:border-primary cursor-pointer"
+          >
             <Github className="w-5 h-5" />
           </a>
         </li>
       </ul>
 
       <div className="text-center">
-        <Button
-          className={
-            "py-6 md:w-full rounded-full text-lg uppercase text-black cursor-pointer hover:text-primary hover:bg-transparent transition-all duration-200 border border-primary"
-          }
+        <Link
+          className="block py-6 md:w-full rounded-full text-lg uppercase text-white cursor-pointer hover:text-primary hover:bg-transparent transition-all duration-200 border border-primary"
+          to="contact"
+          smooth={true}
+          duration={300}
         >
           hire me!
-        </Button>
+        </Link>
       </div>
     </div>
   );

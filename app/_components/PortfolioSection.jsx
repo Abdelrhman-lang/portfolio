@@ -105,7 +105,7 @@ export default function PortfolioSection() {
               target="_blank"
               className="text-2xl font-light hover:text-primary transition-all duration-200"
             >
-              MobileX - E-commerc Website For Selling Tech Products
+              MobileX - E-commerce Website For Selling Tech Products
             </a>
           </motion.div>
           <motion.div
