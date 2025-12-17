@@ -8,7 +8,7 @@ export default function ResumeSection() {
   return (
     <section className="py-24" id="resume">
       <div className="custom-container text-white">
-        <div className="max-w-[770px] w-full ms-auto">
+        <div className="max-w-[770px] w-full ms-auto padding">
           <SectionTitle
             title={"resume"}
             icon={<Briefcase className="w-3.5 h-3.5" />}

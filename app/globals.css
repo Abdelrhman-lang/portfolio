@@ -243,3 +243,9 @@
     
   } 
 }
+
+@media (min-width: 1241px) and (max-width: 1300px) {
+  .padding {
+    padding-left: 80px;
+  }
+}

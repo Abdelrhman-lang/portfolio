@@ -1,7 +1,6 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { SettingContext } from "@/context/SettingContext";
-import { Facebook, Github, Instagram, Settings, Twitter } from "lucide-react";
+import { Facebook, Github, Instagram, Settings } from "lucide-react";
 import { useContext } from "react";
 import { Link } from "react-scroll";
 
@@ -21,9 +20,9 @@ export default function LeftSidear() {
           web desinger <br />& developer
         </span>
       </div>
-      <div className="px-0 mb-12 flex justify-center items-center">
+      <div className="px-2 mb-12 flex justify-center items-center">
         <img
-          src="/me_1.png"
+          src="/boda-2.jpeg"
           alt="me"
           className="w-[320px] h-[310px] rounded-lg grayscale-25"
         />
@@ -67,7 +66,7 @@ export default function LeftSidear() {
         </li>
       </ul>
 
-      <div className="text-center">
+      <div className="text-center px-2">
         <Link
           className="block py-6 md:w-full rounded-full text-lg uppercase text-white cursor-pointer hover:text-primary hover:bg-transparent transition-all duration-200 border border-primary"
           to="contact"

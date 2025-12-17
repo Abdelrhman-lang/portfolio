@@ -27,7 +27,7 @@ export default function ServicesSection() {
   return (
     <section className="py-24" id="services">
       <div className="custom-container text-white">
-        <div className="max-w-[770px] w-full ms-auto">
+        <div className="max-w-[770px] w-full ms-auto padding">
           <div>
             <SectionTitle
               title={"services"}

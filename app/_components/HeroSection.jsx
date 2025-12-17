@@ -9,7 +9,7 @@ export default function HeroSectio() {
   return (
     <section className="py-16" id="hero">
       <div className="custom-container text-white">
-        <div className="max-w-[770px] w-full ms-auto">
+        <div className="max-w-[770px] w-full ms-auto padding">
           <div
             onClick={() => setIsMenuOpen(true)}
             className="bg-[#1f1f1f] w-12 h-12 border border-[#565656] hover:border-primary transition-all duration-200 group rounded-full flex xl:hidden items-center justify-center absolute top-5 right-2.5 md:top-0 md:right-0 lg:top-5 lg:right-10 cursor-pointer"
