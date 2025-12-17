@@ -13,7 +13,7 @@ import SettingSidebar from "./_components/SettingSidebar";
 import SkillsSection from "./_components/SkillsSection";
 export default function Home() {
   return (
-    <section className="overflow-x-hidden">
+    <section className="overflow-x-hidden ">
       <Overlay />
       <MenuSidbar />
       <SettingSidebar />
